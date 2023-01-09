@@ -6,6 +6,9 @@ import { About } from "./views/about";
 import { Home } from "./views/home-page";
 import { ToyIndex } from "./views/toy-index";
 import { store } from "./store/store";
+import { ToyDetails } from "./views/toy-details";
+import { ToyEdit } from "./views/toy-edit";
+import { UserMsg } from "./cmps/user-msg";
 
 
 export function App(){
@@ -19,8 +22,12 @@ export function App(){
                             <Route element={<Home/>} path="/"/>
                             <Route element={<About/>} path="/about"/>
                             <Route element={<ToyIndex/>} path="/toy"/>
+                            <Route element={<ToyDetails/>} path="/toy/:toyId"/>
+                            <Route element={<ToyEdit/>} path="/toy/edit"/>
+                            <Route element={<ToyEdit/>} path="/toy/edit/:toyId"/>
                         </Routes>
                     </main>
+                    <UserMsg/>
                     <AppFooter/>
                 </section>
             </Router>
