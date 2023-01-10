@@ -87,4 +87,14 @@ app.delete('/api/toy/:toyId', (req, res) => {
         })
 })
 
-app.listen(3030, () => console.log('Server is listening on port 3030!'))
+// app.listen(3030, () => console.log('Server is listening on port 3030!'))
+
+app.get('/**', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+})
+
+const port = process.env.PORT || 3030;
+
+app.listen(port, () => {
+    console.log(`App listening on port ${port}!`)
+});
