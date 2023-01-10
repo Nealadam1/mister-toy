@@ -1,4 +1,6 @@
+import { json } from "react-router-dom"
 import { storageService } from "./async-storage.service"
+import { httpService } from "./http.service"
 import { utilService } from "./util.service"
 
 const TOY_KEY = 'toyDB'
@@ -18,22 +20,25 @@ export const toyService = {
     getLabelList
 }
 
-function query(filterBy = getDefaultFilter(),sortby= getDefaultSort()) {
-    return storageService.query(TOY_KEY)
+function query(filterBy = getDefaultFilter(), sortby = getDefaultSort()) {
+    console.log(filterBy)
+    const labels=JSON.stringify(filterBy.labels)
+    const queryParams = `?name=${filterBy.name}&inStock=${filterBy.stock}&labels=${labels}`
+    return httpService.get(BASE_URL + queryParams)
 }
 
 function getById(toyId) {
-    return storageService.get(TOY_KEY, toyId)
+    return httpService.get(BASE_URL + toyId)
 }
 
 function remove(toyId) {
-    return storageService.remove(TOY_KEY, toyId)
+    return httpService.delete(BASE_URL + toyId)
 }
 function save(toy) {
     if (toy._id) {
-        return storageService.put(TOY_KEY, toy)
+        return httpService.put(BASE_URL, toy)
     } else {
-        return storageService.post(TOY_KEY, toy)
+        return httpService.post(BASE_URL, toy)
     }
 }
 
@@ -47,13 +52,13 @@ function getEmptyToy() {
 }
 
 function getDefaultFilter() {
-    return { name: '', stock: true, labels: [], }
+    return { name: '', stock: true, labels: '', }
 }
 function getDefaultSort() {
     return { name: 1, price: 0, createdAt: 0 }
 }
 
-function getLabelList(){
+function getLabelList() {
     return labels
 }
 

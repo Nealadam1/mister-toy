@@ -1,0 +1,25 @@
+[
+  {
+    "_id": "t101",
+    "name": "Lego batman",
+    "price": 200,
+    "labels": [
+      "Box game",
+      "Puzzel"
+    ],
+    "createdAt": 1631031801011,
+    "inStock": true
+  },
+  {
+    "_id": "t102",
+    "name": "Talking Doll",
+    "price": 10,
+    "labels": [
+      "Doll",
+      "Battery Powered",
+      "Baby"
+    ],
+    "createdAt": 1631031801011,
+    "inStock": true
+  }
+]
