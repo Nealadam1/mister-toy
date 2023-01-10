@@ -1,37 +1,32 @@
 [
-    {
-        "_id": "t101",
-        "name": "Lego batman",
-        "price": 200,
-        "labels": [
-            "Box game",
-            "Puzzel"
-        ],
-        "createdAt": 1631031801011,
-        "inStock": true
-    },
-    {
-        "_id": "t102",
-        "name": "Talking Doll",
-        "price": 123,
-        "labels": [
-            "Doll",
-            "Battery Powered",
-            "Baby"
-        ],
-        "createdAt": 1631031801011,
-        "inStock": true
-    },
-    {
-        "_id": "t103",
-        "name": "Remote car",
-        "price": 500,
-        "labels": [
-            "On wheels",
-            "Battery Powered",
-            "Outdoor"
-        ],
-        "createdAt": 1631031801011,
-        "inStock": true
-    }
+  {
+    "_id": "t102",
+    "name": "Talking Doll",
+    "price": 123,
+    "labels": [
+      "Doll",
+      "Battery Powered",
+      "Baby"
+    ],
+    "createdAt": 1631031801011,
+    "inStock": true
+  },
+  {
+    "name": "rrae",
+    "price": 21312,
+    "labels": [
+      "Box game"
+    ],
+    "inStock": true,
+    "_id": "mRZGg"
+  },
+  {
+    "name": "fasfa",
+    "price": 312,
+    "labels": [
+      "Doll"
+    ],
+    "inStock": true,
+    "_id": "iwJal"
+  }
 ]

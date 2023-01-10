@@ -67,7 +67,7 @@ function _makeId(length = 5) {
 function _writeToysToFile() {
     return new Promise((res, rej) => {
         const data = JSON.stringify(toys, null, 2)
-        fs.writeFile('data/car.json', data, (err) => {
+        fs.writeFile('data/toy.json', data, (err) => {
             if (err) return rej(err)
             // console.log("File written successfully\n");
             res()
