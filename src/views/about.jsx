@@ -1,4 +1,8 @@
+import { BranchMap } from "../cmps/branch-map";
 
 export function About(){
-    return <div>hello from about</div>
+   return <section>
+    <h1>Our Branches</h1>
+    <BranchMap/>
+   </section>
 }

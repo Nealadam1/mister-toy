@@ -10,6 +10,9 @@ import { ToyDetails } from "./views/toy-details";
 import { ToyEdit } from "./views/toy-edit";
 import { UserMsg } from "./cmps/user-msg";
 
+import './assets/style/main.css';
+import { ToyDashboard } from "./views/toy-dashboard";
+
 
 export function App(){
     return (
@@ -25,6 +28,8 @@ export function App(){
                             <Route element={<ToyDetails/>} path="/toy/:toyId"/>
                             <Route element={<ToyEdit/>} path="/toy/edit"/>
                             <Route element={<ToyEdit/>} path="/toy/edit/:toyId"/>
+                            <Route element={<ToyDashboard/>} path="/dashboard"/>
+                            
                         </Routes>
                     </main>
                     <UserMsg/>

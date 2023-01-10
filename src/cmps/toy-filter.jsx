@@ -36,7 +36,7 @@ export function ToyFilter({ onSetFilter }) {
     return <section className="toy-filter">
         <h2>Toy Filter</h2>
         <form onSubmit={onSubmitFilter}>
-            <label htmlFor="name">Name:</label>
+            <label htmlFor="name"></label>
             <input type="text"
                 name="name"
                 id="name"

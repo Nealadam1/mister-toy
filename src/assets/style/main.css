@@ -1,0 +1,19 @@
+
+/* setup */
+@import './setup/fonts.css';
+@import './setup//vars.css';
+
+
+
+/* base */
+
+@import './base/base.css';
+@import './base/forms.css';
+@import './base/helpers.css';
+@import './base/layout.css';
+
+/*cmps*/
+@import "./cmps/toy-list.css";
+@import './cmps/app-header.css';
+@import'./cmps/toy-filter.css';
+@import './cmps/toy-index.css'

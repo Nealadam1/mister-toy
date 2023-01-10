@@ -17,12 +17,13 @@ export const toyService = {
     getEmptyToy,
     getDefaultFilter,
     getDefaultSort,
-    getLabelList
+    getLabelList,
+    countLabelsMap
 }
 
 function query(filterBy = getDefaultFilter(), sortby = getDefaultSort()) {
     console.log(filterBy)
-    const labels=JSON.stringify(filterBy.labels)
+    const labels = JSON.stringify(filterBy.labels)
     const queryParams = `?name=${filterBy.name}&inStock=${filterBy.stock}&labels=${labels}`
     return httpService.get(BASE_URL + queryParams)
 }
@@ -94,4 +95,19 @@ function _createDemoData() {
         ]
         utilService.saveToStorage(TOY_KEY, demoData)
     }
+}
+
+function countLabelsMap(toys) {
+    const labelCounts = labels.map(label => {
+        let count = 0;
+        toys.forEach(toy => {
+            if (toy.labels.includes(label)) count++
+
+        })
+        return count
+
+    })
+
+    return labelCounts
+
 }
