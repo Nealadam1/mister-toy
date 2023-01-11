@@ -10,7 +10,7 @@ import { ToyDetails } from "./views/toy-details";
 import { ToyEdit } from "./views/toy-edit";
 import { UserMsg } from "./cmps/user-msg";
 
-import './assets/style/main.css';
+import './assets/style/style.scss';
 import { ToyDashboard } from "./views/toy-dashboard";
 
 

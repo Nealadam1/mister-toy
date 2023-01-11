@@ -1,4 +1,5 @@
 const fs = require('fs')
+const axios = require('axios')
 
 var toys = require('../data/toy.json')
 
@@ -20,9 +21,9 @@ function query(filterBy) {
     }
     if (filterBy.labels && filterBy.labels.length) {
         filteredToys = filteredToys.filter(toy => {
-          return filterBy.labels.some(label => toy.labels.includes(label));
+            return filterBy.labels.some(label => toy.labels.includes(label));
         })
-      }
+    }
 
     return Promise.resolve(filteredToys)
 }
@@ -51,6 +52,7 @@ function save(toy) {
     } else {
         toy._id = _makeId()
         toys.push(toy)
+        toy.img = getDalleImg(toy.name)
     }
     return _writeToysToFile().then(() => toy)
 }
@@ -74,3 +76,30 @@ function _writeToysToFile() {
         });
     })
 }
+
+// function getDalleImg(toyName) {
+//     const response = await openai.createImage({
+//         prompt: "a white siamese cat",
+//         n: 1,
+//         size: "1024x1024",
+//     })
+//     const IMAGE_URL = response.data.data[0].url
+//     getAndSaveImage(`${toyName}.jpg`)
+//     const imagePath = `data/img/${toyName}`
+
+//     async function getAndSaveImage(name) {
+//         try {
+//             const response = await axios.get(IMAGE_URL, {
+//                 responseType: 'arraybuffer'
+//             });
+//             const image = new Buffer.from(response.data, 'binary').toString('base64');
+//             const fileName = `data/img/${name}`;
+//             fs.writeFileSync(fileName, image, 'base64');
+//         } catch (error) {
+//             console.error(error);
+//         }
+//     }
+
+//     return imagePath
+
+// }
