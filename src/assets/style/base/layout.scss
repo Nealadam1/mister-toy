@@ -1,32 +1,21 @@
 .main-layout {
-
-  display: grid;
-  grid-template-columns: $layoutPadding 1fr $layoutPadding;
-
-
->* {
-  grid-column: 2;
+  margin: 0 auto;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
 }
 
->*.full {
-  grid-column: 1 / -1;
+.container {
+  max-width: 800px;
+  padding: 1em;
+  margin: auto;
 }
 
->*:not(.full) {
-  display: grid;
-  grid-auto-flow: dense;
-  grid-template-columns: repeat(6, 1fr);
+
+footer {
+  background-color: var(--gray3);
+  color: var(--clr1bg);
+  padding: 1em;
+  text-align: center;
 }
 
-@include for-narrow-layout {
-  @include layoutGTC($break-narrow);
-}
 
-@include for-normal-layout {
-  @include layoutGTC($break-normal);
-}
-
-@include for-wide-layout {
-  @include layoutGTC($break-wide);
-}
-}
