@@ -1,44 +1,52 @@
 .app-header {
-  position: fixed;
-  background-color: var(--clr1);
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  font-family: 'Edu VIC WA NT Beginner', cursive;
-  left: 0;
-
-}
-
-.app-header nav {
-  display: flex;
-  align-items: center;
-}
-
-.app-header nav a {
-  color: white;
-  text-decoration: none;
-  margin-left: 20px;
-  font-size: 1.2em;
-  font-weight: 600;
-  transition: all 0.2s ease-in-out;
-}
-
-.app-header nav a:hover {
-  color: #f0f0f0;
-}
+  background-color: $clr1;
 
 
-.app-header nav a {
-  color: white;
-  text-decoration: none;
-  margin-left: 20px;
-  font-size: 1.2em;
-  transition: all 0.2s ease-in-out;
-}
+  nav {
+    display: flex;
+    justify-content: flex-start;
 
-.app-header nav a:hover {
-  color: #f0f0f0;
+    font-size: 20px;
+
+    a {
+      background-color: $clr5;
+      padding: 20px 20px;
+
+
+
+      &:nth-child(1) {
+        background-color: $clr3;
+
+        &:hover {
+          background-color: lighten($clr3, 5%);
+        }
+      }
+
+      &:nth-child(2) {
+        background-color: $clr5;
+
+        &:hover {
+          background-color: lighten($clr5, 5%);
+        }
+
+      }
+
+      &:nth-child(3) {
+        background-color: darken($clr5, 10%);
+
+        &:hover {
+          background-color:darken($clr5,5%);
+        }
+      }
+
+      &:nth-child(4) {
+        background-color: darken($clr5, 20%);
+        clip-path: polygon(0 0, 91% 0, 100% 100%, 0% 100%);
+
+        &:hover {
+          background-color: darken($clr5, 15%);
+        }
+      }
+    }
+  }
 }

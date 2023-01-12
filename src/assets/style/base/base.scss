@@ -2,53 +2,54 @@
   box-sizing: border-box;
 }
 
+html { 
+  font-family: luckiest-guy; 
+  color: $clr2;
+  line-height: 1.8;
+  line-height: lh(26px);
+
+  @media (max-width: $break-wide) {
+      font-size: 13px;
+  }
+}
+
 body {
   margin: 0;
   background-color: $clr0;
-  color: var(--gray3);
-  overflow-y: none;
-  overflow-x: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: .5em 0 .5em;
-  font-family: 'Edu VIC WA NT Beginner', cursive;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  margin: 0 0 1rem;
+  line-height: lh(40px, 29px);
+}
+h1 {
+  font-size: rem(60px);
 }
 
-p {
-  margin: 0 0 1em;
+h2 {
+  font-size: em(16px);
+  margin: em(63px) 0;
+  grid-area: title;
+  color: $clr1;
+  text-transform: uppercase;
+  
 }
 
+h3 {
+  font-size: em(29px);
+}
+
+img {
+  width: 100%;
+}
+
+
+
+
+
+// links
 a {
   text-decoration: none;
   color: unset;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: var(--clr2bg)
-}
-
-
-
-/* Dont stretch my Media */
-img,
-embed,
-video,
-object {
-  max-width: 100%
-}
-
-/* Simple and useful CSS Debugging Technique */
-.debug * {
-  outline: 1px solid gold
-}
-
-a.active {
-  text-decoration: overline;
 }

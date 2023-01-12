@@ -1,18 +1,12 @@
 //color pallete
-$clr0: rgb(58, 58, 58);
-$clr1: #01b52e;
-$clr2: rgb(43, 43, 43);
-$clr3: whitesmoke;
+$clr0: rgb(50, 50, 50);
+$clr1: #4c51f7;
+$clr2: #f3af19;
+$clr3: #9d4dbb;
+$clr4: #319236;
+$clr5: lighten($clr1, 10%);
 
 
-$clr1bg: #94d2bd;
-$clr1bg-light: #c1f1e1;
-$clr2bg: #ee9b00;
-$clr2bg-light: #e9d8a6;
-
-$gray1: rgb(240, 240, 240);
-$gray2: rgb(155, 155, 155);
-$gray3: rgb(44, 44, 44);
 
 //layout 
 $layoutPadding: 20px;
