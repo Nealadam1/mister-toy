@@ -2,6 +2,7 @@ import { json } from "react-router-dom"
 import { storageService } from "./async-storage.service"
 import { httpService } from "./http.service"
 import { utilService } from "./util.service"
+import { userService } from "./user.service"
 
 const TOY_KEY = 'toyDB'
 const BASE_URL = 'Toy/'

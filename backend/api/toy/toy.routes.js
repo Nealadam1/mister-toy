@@ -7,9 +7,9 @@ const { getToys, getToyById, addToy, updateToy, removeToy, addToyMsg, removeToyM
 
 router.get('/', log, getToys)
 router.get('/:id', getToyById)
-router.post('/', requireAdmin,addToy)
-router.put('/:id' ,requireAdmin,updateToy)
-router.delete('/:id', requireAdmin,removeToy)
+router.post('/',requireAuth, requireAdmin,addToy)
+router.put('/:id', requireAuth,requireAdmin,updateToy)
+router.delete('/:id',requireAuth, requireAdmin,removeToy)
 
 router.post('/:id/msg' ,requireAuth,addToyMsg)
 router.delete('/:id/msg/:msgId', requireAuth,removeToyMsg)

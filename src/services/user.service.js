@@ -1,60 +1,77 @@
+import { showSuccessMsg } from "./event-bus.service"
 import { httpService } from "./http.service"
+// import { store } from "../store/store"
 
-const SESSION_KEY = 'loggedinUser'
-const BASE_URL = 'auth/'
+
+const STORAGE_KEY_LOGGEDIN_USER = 'loggedinUser'
+
 
 export const userService = {
     login,
     logout,
     signup,
-    getUserById,
-    getLoggedinUser
+    getById,
+    getLoggedinUser,
+    getUsers,
+    remove,
+    update,
+    saveLocalUser,
+   
+
     // updateScore
 }
 
-function getUserById(userId) {
-    return httpService.get('user/' + userId)
+function getUsers(){
+    return httpService.get('user')
+}
+// function onUserUpdate(user) {
+//     showSuccessMsg(`This user ${user.fullname} just got updated from socket, new score: ${user.score}`)
+//     store.dispatch({ type: 'SET_WATCHED_USER', user })
+// }
+
+async function getById(userId) {
+    const user = await httpService.get(`user/${userId}`)
+    return user
 }
 
-async function login(credentials) {
-    try {
-        const response = await httpService.post(BASE_URL + 'login', credentials);
-        return _setLoggedinUser(response);
-    } catch (err) {
-        console.log('err:', err);
-        throw new Error('Invalid login');
+function remove(userId){
+    return httpService.delete(`user/${userId}`)
+}
+
+async function update({_id, score}){
+    const user=await httpService.put(`user/${_id}` ,{_id,score})
+    if(getLoggedinUser()._id===user._id) saveLocalUser(user)
+    return user
+}
+
+async function login(userCred) {
+    
+    const user = await httpService.post('auth/login', userCred)
+    if (user) {
+        // socketService.login(user._id)
+        return saveLocalUser(user)
     }
 }
 
-async function signup({ username, password, fullname }) {
-    try {
-        const user = { username, password, fullname }
-        const response = httpService.post(BASE_URL + 'signup', user)
-        return _setLoggedinUser(response)
-
-    } catch (err) {
-        console.log('err:', err);
-        throw new Error('Invalid login');
-    }
+async function signup(userCred) {
+    if (!userCred.imgUrl) userCred.imgUrl = 'https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png'
+    const user = await httpService.post('auth/signup', userCred)
+    // socketService.login(user._id)
+    return saveLocalUser(user)
 }
 
 async function logout() {
-    try {
-        httpService.post(BASE_URL + 'logout')
-        return sessionStorage.removeItem(SESSION_KEY)
+    sessionStorage.removeItem(STORAGE_KEY_LOGGEDIN_USER)
+    // socketService.logout()
+    return await httpService.post('auth/logout')
+}
 
-    } catch (err) {
-
-    }
+function saveLocalUser(user) {
+    user = {_id: user._id, fullname: user.fullname, imgUrl: user.imgUrl, score: user.score}
+    sessionStorage.setItem(STORAGE_KEY_LOGGEDIN_USER, JSON.stringify(user))
+    return user
 }
 
 function getLoggedinUser() {
-    return JSON.parse(sessionStorage.getItem(SESSION_KEY))
-}
-
-
-function _setLoggedinUser(user) {
-    const userToSave = { _id: user._id, fullname: user.fullname, score: user.score }
-    sessionStorage.setItem(SESSION_KEY, JSON.stringify(userToSave))
-    return userToSave
+    return JSON.parse(sessionStorage.getItem(STORAGE_KEY_LOGGEDIN_USER))
 }

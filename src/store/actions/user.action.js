@@ -1,51 +1,76 @@
 import { userService } from '../../services/user.service'
 import { store } from '../store'
-import { CLEAR_CART, SET_USER, UPDATE_USER_SCORE } from '../reducers/user.reducer'
 
-export function login(credentials) {
-    return userService.login(credentials)
-        .then(user => {
-            store.dispatch({ type: SET_USER, user })
-            return user
-        })
-        .catch(err => {
-            console.error('Cannot login:', err)
-            throw err
-        })
+import { showErrorMsg } from '../../services/event-bus.service'
+
+export async function loadUsers() {
+    try {
+        store.dispatch({ type: 'LOADING_START' })
+        const users = await userService.getUsers()
+        store.dispatch({ type: 'SET_USERS', users })
+    } catch (err) {
+        console.log('UserActions: err in loadUsers', err)
+    } finally {
+        store.dispatch({ type: 'LOADING_DONE' })
+    }
 }
 
-export function signup(credentials) {
-    return userService.signup(credentials)
-        .then(user => {
-            store.dispatch({ type: SET_USER, user })
-            return user
-        })
-        .catch(err => {
-            console.error('Cannot signup:', err)
-            throw err
-        })
+export async function removeUser(userId) {
+    try {
+        await userService.remove(userId)
+        store.dispatch({ type: 'REMOVE_USER', userId })
+    } catch (err) {
+        console.log('UserActions: err in removeUser', err)
+    }
 }
 
-export function logout() {
-    return userService.logout()
-        .then(() => {
-            store.dispatch({ type: SET_USER, user: null })
+export async function login(credentials) {
+    try {
+        const user = await userService.login(credentials)
+        store.dispatch({
+            type: 'SET_USER',
+            user
         })
-        .catch(err => {
-            console.error('Cannot logout:', err)
-            throw err
-        })
+        return user
+    } catch (err) {
+        console.log('Cannot login', err)
+        throw err
+    }
 }
 
-export function checkout(amount) {
-    return userService.updateScore(amount)
-        .then(newScore => {
-            store.dispatch({ type: UPDATE_USER_SCORE, score: newScore })
-            store.dispatch({ type: CLEAR_CART })
-            return newScore
+export async function signup(credentials) {
+    try {
+        const user = await userService.signup(credentials)
+        store.dispatch({
+            type: 'SET_USER',
+            user
         })
-        .catch(err => {
-            console.error('Cannot checkout:', err)
-            throw err
+        return user
+    } catch (err) {
+        console.log('Cannot signup', err)
+        throw err
+    }
+}
+
+export async function logout() {
+    try {
+        await userService.logout()
+        store.dispatch({
+            type: 'SET_USER',
+            user: null
         })
+    } catch (err) {
+        console.log('Cannot logout', err)
+        throw err
+    }
+}
+
+export async function loadUser(userId) {
+    try {
+        const user = await userService.getById(userId);
+        store.dispatch({ type: 'SET_WATCHED_USER', user })
+    } catch (err) {
+        showErrorMsg('Cannot load user')
+        console.log('Cannot load user', err)
+    }
 }

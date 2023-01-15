@@ -12,6 +12,9 @@ import { UserMsg } from "./cmps/user-msg";
 
 import './assets/style/style.scss';
 import { ToyDashboard } from "./views/toy-dashboard";
+import { UserDetails } from "./views/user-details";
+import { ReviewApp } from "./views/review-app";
+import { AdminApp } from "./views/admin-app";
 
 
 export function App(){
@@ -29,7 +32,9 @@ export function App(){
                             <Route element={<ToyEdit/>} path="/toy/edit"/>
                             <Route element={<ToyEdit/>} path="/toy/edit/:toyId"/>
                             <Route element={<ToyDashboard/>} path="/dashboard"/>
-                            
+                            <Route element={<UserDetails/>} path="/user/:id"/>
+                            <Route element={<ReviewApp/>} path="/review"/>
+                            <Route element={<AdminApp/>} path="/admin"/> 
                         </Routes>
                     </main>
                     <UserMsg/>

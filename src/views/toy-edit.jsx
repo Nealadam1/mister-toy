@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { showErrorMsg, showSuccessMsg } from "../services/event-bus.service";
 import { toyService } from "../services/toy.service";
-import { loadToys } from "../store/actions/toy.action";
+import { loadToys, saveToy } from "../store/actions/toy.action";
 import React from 'react'
 import Select from 'react-select'
 
@@ -46,7 +46,7 @@ export function ToyEdit() {
 
     function onSaveToy(ev) {
         ev.preventDefault()
-        toyService.save(toyToEdit)
+        saveToy(toyToEdit)
             .then((toy) => {
                 console.log('Toy saved', toy)
                 showSuccessMsg('Toy saved')
