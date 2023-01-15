@@ -1,0 +1,210 @@
+14.1.2023, 18:59:22 - INFO - Server is running on port: 3030 
+14.1.2023, 19:00:13 - INFO - Req was made 
+14.1.2023, 19:00:13 - DEBUG - Getting Toys 
+14.1.2023, 19:00:13 - DEBUG - Getting Toys 
+14.1.2023, 19:00:13 - INFO - Req was made 
+14.1.2023, 19:00:17 - INFO - Req was made 
+14.1.2023, 19:00:17 - DEBUG - Getting Toys 
+14.1.2023, 19:00:17 - INFO - Req was made 
+14.1.2023, 19:00:17 - DEBUG - Getting Toys 
+14.1.2023, 19:00:19 - INFO - Req was made 
+14.1.2023, 19:00:19 - DEBUG - Getting Toys 
+14.1.2023, 19:00:21 - INFO - Req was made 
+14.1.2023, 19:00:21 - DEBUG - Getting Toys 
+14.1.2023, 19:00:21 - INFO - Req was made 
+14.1.2023, 19:00:21 - DEBUG - Getting Toys 
+14.1.2023, 19:00:51 - INFO - Req was made 
+14.1.2023, 19:00:51 - DEBUG - Getting Toys 
+14.1.2023, 19:00:52 - INFO - Req was made 
+14.1.2023, 19:00:52 - DEBUG - Getting Toys 
+14.1.2023, 19:02:05 - INFO - Req was made 
+14.1.2023, 19:02:05 - DEBUG - Getting Toys 
+14.1.2023, 19:02:05 - INFO - Req was made 
+14.1.2023, 19:02:05 - DEBUG - Getting Toys 
+14.1.2023, 19:04:39 - INFO - Req was made 
+14.1.2023, 19:04:39 - DEBUG - Getting Toys 
+14.1.2023, 19:07:07 - DEBUG - Getting Toys 
+14.1.2023, 19:07:07 - INFO - Req was made 
+14.1.2023, 19:07:08 - DEBUG - Getting Toys 
+14.1.2023, 19:07:08 - INFO - Req was made 
+14.1.2023, 20:35:46 - INFO - Req was made 
+14.1.2023, 20:35:46 - DEBUG - Getting Toys 
+14.1.2023, 20:42:24 - INFO - Req was made 
+14.1.2023, 20:42:24 - DEBUG - Getting Toys 
+14.1.2023, 21:00:04 - INFO - Req was made 
+14.1.2023, 21:00:04 - DEBUG - Getting Toys 
+14.1.2023, 21:02:23 - INFO - Req was made 
+14.1.2023, 21:02:23 - DEBUG - Getting Toys 
+14.1.2023, 21:02:23 - DEBUG - Getting Toys 
+14.1.2023, 21:02:23 - INFO - Req was made 
+14.1.2023, 21:07:30 - DEBUG - auth.service - signup with username: neals, fullname: neals adam 
+14.1.2023, 21:07:31 - DEBUG - auth.service - login with username: neals 
+14.1.2023, 21:07:31 - DEBUG - auth.route - new account created: {"username":"neals","password":"$2b$10$G4.yNSzuXsgt/TVZhFXiVOlVMALxfx88tu4lCalOCet26WUGmTT1G","fullname":"neals adam","score":0,"_id":"63c2fd73a0e2d2e52770d26b"} 
+14.1.2023, 21:07:31 - INFO - User login:  | {"_id":"63c2fd73a0e2d2e52770d26b","username":"neals","fullname":"neals adam","score":0} 
+14.1.2023, 21:07:57 - DEBUG - auth.service - signup with username: neals, fullname: neals adam 
+14.1.2023, 21:07:57 - DEBUG - auth.route - new account created: {"username":"neals","password":"$2b$10$6ZdCOSJ1Qi9eBTfgv7YHBuuxszXsTY9.x8mgDDN2ErQinRYzq2kwq","fullname":"neals adam","score":0,"_id":"63c2fd8da0e2d2e52770d26c"} 
+14.1.2023, 21:07:57 - DEBUG - auth.service - login with username: neals 
+14.1.2023, 21:07:57 - INFO - User login:  | {"_id":"63c2fd73a0e2d2e52770d26b","username":"neals","fullname":"neals adam","score":0} 
+14.1.2023, 21:10:11 - INFO - Req was made 
+14.1.2023, 21:10:11 - DEBUG - Getting Toys 
+14.1.2023, 21:10:11 - INFO - Req was made 
+14.1.2023, 21:10:11 - DEBUG - Getting Toys 
+14.1.2023, 21:10:35 - INFO - Req was made 
+14.1.2023, 21:10:35 - DEBUG - Getting Toys 
+14.1.2023, 21:10:35 - INFO - Req was made 
+14.1.2023, 21:10:35 - DEBUG - Getting Toys 
+14.1.2023, 21:12:20 - INFO - Req was made 
+14.1.2023, 21:12:20 - DEBUG - Getting Toys 
+14.1.2023, 21:12:20 - INFO - Req was made 
+14.1.2023, 21:12:20 - DEBUG - Getting Toys 
+14.1.2023, 21:12:44 - INFO - Req was made 
+14.1.2023, 21:12:44 - DEBUG - Getting Toys 
+14.1.2023, 21:12:44 - INFO - Req was made 
+14.1.2023, 21:12:44 - DEBUG - Getting Toys 
+14.1.2023, 21:13:07 - INFO - Req was made 
+14.1.2023, 21:13:07 - DEBUG - Getting Toys 
+14.1.2023, 21:13:07 - INFO - Req was made 
+14.1.2023, 21:13:07 - DEBUG - Getting Toys 
+14.1.2023, 21:16:14 - INFO - Req was made 
+14.1.2023, 21:16:14 - DEBUG - Getting Toys 
+14.1.2023, 21:16:14 - INFO - Req was made 
+14.1.2023, 21:16:14 - DEBUG - Getting Toys 
+14.1.2023, 21:16:26 - INFO - Req was made 
+14.1.2023, 21:16:26 - DEBUG - Getting Toys 
+14.1.2023, 21:16:27 - INFO - Req was made 
+14.1.2023, 21:16:27 - DEBUG - Getting Toys 
+14.1.2023, 21:21:29 - INFO - Server is running on port: 3030 
+14.1.2023, 21:21:33 - INFO - Req was made 
+14.1.2023, 21:21:33 - DEBUG - Getting Toys 
+14.1.2023, 21:21:34 - INFO - Req was made 
+14.1.2023, 21:21:34 - DEBUG - Getting Toys 
+14.1.2023, 21:21:38 - INFO - Req was made 
+14.1.2023, 21:21:38 - DEBUG - Getting Toys 
+14.1.2023, 21:21:38 - DEBUG - Getting Toys 
+14.1.2023, 21:21:38 - INFO - Req was made 
+14.1.2023, 21:21:48 - INFO - Req was made 
+14.1.2023, 21:21:48 - DEBUG - Getting Toys 
+14.1.2023, 21:21:48 - INFO - Req was made 
+14.1.2023, 21:21:48 - DEBUG - Getting Toys 
+14.1.2023, 21:21:59 - INFO - Req was made 
+14.1.2023, 21:21:59 - DEBUG - Getting Toys 
+14.1.2023, 21:21:59 - INFO - Req was made 
+14.1.2023, 21:21:59 - DEBUG - Getting Toys 
+14.1.2023, 21:22:29 - DEBUG - auth.service - login with username: neal 
+14.1.2023, 21:22:29 - ERROR - Failed to Login Invalid username or password 
+14.1.2023, 21:22:32 - INFO - Req was made 
+14.1.2023, 21:22:32 - DEBUG - Getting Toys 
+14.1.2023, 21:22:32 - INFO - Req was made 
+14.1.2023, 21:22:32 - DEBUG - Getting Toys 
+14.1.2023, 21:22:33 - INFO - Req was made 
+14.1.2023, 21:22:33 - DEBUG - Getting Toys 
+14.1.2023, 21:22:34 - INFO - Req was made 
+14.1.2023, 21:22:34 - DEBUG - Getting Toys 
+14.1.2023, 21:22:59 - DEBUG - auth.service - signup with username: neal, fullname: neal adam1 
+14.1.2023, 21:22:59 - DEBUG - auth.route - new account created: {"username":"neal","password":"$2b$10$E5dmvZJ2XYJsESqrEMIPXu0JTx1nbR76utABvVSfGETNTlpbZPu7C","fullname":"neal adam1","score":0,"_id":"63c30113af6663f50e70a0c3"} 
+14.1.2023, 21:22:59 - DEBUG - auth.service - login with username: neal 
+14.1.2023, 21:23:00 - INFO - User login:  | {"_id":"63c30113af6663f50e70a0c3","username":"neal","fullname":"neal adam1","score":0} 
+14.1.2023, 21:23:17 - DEBUG - Getting Toys 
+14.1.2023, 21:23:17 - INFO - Req was made 
+14.1.2023, 21:23:17 - DEBUG - Getting Toys 
+14.1.2023, 21:23:17 - INFO - Req was made 
+14.1.2023, 21:23:31 - INFO - Req was made 
+14.1.2023, 21:23:31 - DEBUG - Getting Toys 
+14.1.2023, 21:23:31 - DEBUG - Getting Toys 
+14.1.2023, 21:23:31 - INFO - Req was made 
+14.1.2023, 21:23:53 - DEBUG - auth.service - login with username: test 
+14.1.2023, 21:23:53 - ERROR - Failed to Login Invalid username or password 
+14.1.2023, 21:23:56 - INFO - Req was made 
+14.1.2023, 21:23:56 - DEBUG - Getting Toys 
+14.1.2023, 21:23:57 - INFO - Req was made 
+14.1.2023, 21:23:57 - DEBUG - Getting Toys 
+14.1.2023, 21:23:58 - INFO - Req was made 
+14.1.2023, 21:23:58 - DEBUG - Getting Toys 
+14.1.2023, 21:23:58 - DEBUG - Getting Toys 
+14.1.2023, 21:23:58 - INFO - Req was made 
+14.1.2023, 21:24:09 - DEBUG - auth.service - signup with username: test, fullname: test 
+14.1.2023, 21:24:09 - DEBUG - auth.route - new account created: {"username":"test","password":"$2b$10$ERGbVzf/ZfBSYEh87uZMwug47co8jbwuUoWtbTMDAvOu47ZLUL2ki","fullname":"test","score":0,"_id":"63c30159af6663f50e70a0c5"} 
+14.1.2023, 21:24:09 - DEBUG - auth.service - login with username: test 
+14.1.2023, 21:24:09 - INFO - User login:  | {"_id":"63c30159af6663f50e70a0c5","username":"test","fullname":"test","score":0} 
+14.1.2023, 21:24:13 - INFO - Req was made 
+14.1.2023, 21:24:13 - DEBUG - Getting Toys 
+14.1.2023, 21:24:13 - INFO - Req was made 
+14.1.2023, 21:24:13 - DEBUG - Getting Toys 
+14.1.2023, 21:24:20 - INFO - Req was made 
+14.1.2023, 21:24:20 - DEBUG - Getting Toys 
+14.1.2023, 21:24:20 - INFO - Req was made 
+14.1.2023, 21:24:20 - DEBUG - Getting Toys 
+14.1.2023, 21:25:57 - INFO - Req was made 
+14.1.2023, 21:25:57 - DEBUG - Getting Toys 
+14.1.2023, 21:26:07 - INFO - Req was made 
+14.1.2023, 21:26:07 - DEBUG - Getting Toys 
+14.1.2023, 21:26:07 - INFO - Req was made 
+14.1.2023, 21:26:07 - DEBUG - Getting Toys 
+14.1.2023, 21:26:11 - DEBUG - auth.service - login with username: test 
+14.1.2023, 21:26:11 - INFO - User login:  | {"_id":"63c30159af6663f50e70a0c5","username":"test","fullname":"test","score":0} 
+14.1.2023, 21:26:15 - INFO - Req was made 
+14.1.2023, 21:26:15 - DEBUG - Getting Toys 
+14.1.2023, 21:26:15 - INFO - Req was made 
+14.1.2023, 21:26:15 - DEBUG - Getting Toys 
+14.1.2023, 21:30:48 - DEBUG - auth.service - login with username: test 
+14.1.2023, 21:30:48 - INFO - User login:  | {"_id":"63c30159af6663f50e70a0c5","username":"test","fullname":"test","score":0} 
+14.1.2023, 21:38:24 - INFO - Req was made 
+14.1.2023, 21:38:24 - DEBUG - Getting Toys 
+14.1.2023, 21:38:30 - DEBUG - auth.service - login with username: test 
+14.1.2023, 21:38:30 - INFO - User login:  | {"_id":"63c30159af6663f50e70a0c5","username":"test","fullname":"test","score":0} 
+14.1.2023, 21:38:55 - DEBUG - Getting Toys 
+14.1.2023, 21:38:55 - INFO - Req was made 
+14.1.2023, 21:39:09 - INFO - Req was made 
+14.1.2023, 21:39:09 - DEBUG - Getting Toys 
+14.1.2023, 21:48:42 - INFO - Req was made 
+14.1.2023, 21:48:42 - DEBUG - Getting Toys 
+14.1.2023, 21:48:42 - INFO - Req was made 
+14.1.2023, 21:48:42 - DEBUG - Getting Toys 
+14.1.2023, 21:49:58 - INFO - Req was made 
+14.1.2023, 21:49:58 - DEBUG - Getting Toys 
+14.1.2023, 21:49:58 - INFO - Req was made 
+14.1.2023, 21:49:58 - DEBUG - Getting Toys 
+14.1.2023, 21:50:03 - DEBUG - Getting Toys 
+14.1.2023, 21:50:03 - INFO - Req was made 
+14.1.2023, 21:50:04 - INFO - Req was made 
+14.1.2023, 21:50:04 - DEBUG - Getting Toys 
+14.1.2023, 21:50:07 - DEBUG - Getting Toys 
+14.1.2023, 21:50:07 - INFO - Req was made 
+14.1.2023, 21:50:07 - DEBUG - Getting Toys 
+14.1.2023, 21:50:07 - INFO - Req was made 
+14.1.2023, 21:50:18 - INFO - Req was made 
+14.1.2023, 21:50:18 - DEBUG - Getting Toys 
+14.1.2023, 21:50:19 - DEBUG - Getting Toys 
+14.1.2023, 21:50:19 - INFO - Req was made 
+14.1.2023, 21:50:35 - DEBUG - auth.service - login with username: neal 
+14.1.2023, 21:50:35 - ERROR - Failed to Login Invalid username or password 
+14.1.2023, 21:50:40 - INFO - Req was made 
+14.1.2023, 21:50:40 - DEBUG - Getting Toys 
+14.1.2023, 21:50:41 - DEBUG - Getting Toys 
+14.1.2023, 21:50:41 - INFO - Req was made 
+14.1.2023, 21:50:49 - DEBUG - auth.service - login with username: neal 
+14.1.2023, 21:50:50 - INFO - User login:  | {"_id":"63c30113af6663f50e70a0c3","username":"neal","fullname":"neal adam1","score":0} 
+14.1.2023, 21:51:07 - DEBUG - Getting Toys 
+14.1.2023, 21:51:07 - INFO - Req was made 
+14.1.2023, 21:51:07 - DEBUG - Getting Toys 
+14.1.2023, 21:51:07 - INFO - Req was made 
+14.1.2023, 21:53:31 - DEBUG - Getting Toys 
+14.1.2023, 21:53:31 - INFO - Req was made 
+14.1.2023, 21:56:50 - INFO - Server is running on port: 3030 
+14.1.2023, 21:58:14 - WARN - neal adam1attempted to perform admin action 
+14.1.2023, 21:58:20 - INFO - Req was made 
+14.1.2023, 21:58:20 - DEBUG - Getting Toys 
+14.1.2023, 21:58:20 - INFO - Req was made 
+14.1.2023, 21:58:20 - DEBUG - Getting Toys 
+14.1.2023, 21:58:22 - WARN - neal adam1attempted to perform admin action 
+14.1.2023, 22:00:29 - INFO - Req was made 
+14.1.2023, 22:00:29 - DEBUG - Getting Toys 
+14.1.2023, 22:00:29 - INFO - Req was made 
+14.1.2023, 22:00:29 - DEBUG - Getting Toys 
+14.1.2023, 22:00:35 - WARN - neal adam1attempted to perform admin action 
+14.1.2023, 22:03:48 - INFO - Req was made 
+14.1.2023, 22:03:48 - DEBUG - Getting Toys 
+14.1.2023, 22:03:48 - INFO - Req was made 
+14.1.2023, 22:03:48 - DEBUG - Getting Toys 
+14.1.2023, 22:04:23 - DEBUG - auth.service - login with username: test 
+14.1.2023, 22:04:23 - INFO - User login:  | {"_id":"63c30159af6663f50e70a0c5","username":"test","fullname":"test","score":0,"isAdmin":true} 

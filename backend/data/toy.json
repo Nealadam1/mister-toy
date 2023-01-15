@@ -1,6 +1,5 @@
 [
   {
-    "_id": "t102",
     "name": "Talking Doll",
     "price": 123,
     "labels": [
@@ -8,7 +7,6 @@
       "Battery Powered",
       "Baby"
     ],
-    "createdAt": 1631031801011,
     "inStock": true
   },
   {
@@ -17,8 +15,7 @@
     "labels": [
       "Box game"
     ],
-    "inStock": true,
-    "_id": "mRZGg"
+    "inStock": true
   },
   {
     "name": "fasfa",
@@ -26,7 +23,14 @@
     "labels": [
       "Doll"
     ],
-    "inStock": true,
-    "_id": "iwJal"
+    "inStock": true
+  },
+  {
+    "name": "rear",
+    "price": 3213,
+    "labels": [
+      "Box game"
+    ],
+    "inStock": true
   }
 ]

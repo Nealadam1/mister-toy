@@ -28,6 +28,7 @@ export function ToyFilter({ onSetFilter }) {
             if (value.action === "remove-value") {
                 setFilterByToEdit((prevFilter) => ({ ...prevFilter, labels: prevFilter.labels.filter(label => label !== value.removedValue.label) }))
             } else {
+                if (value.action === 'pop-value') return
                 setFilterByToEdit((prevFilter) => ({ ...prevFilter, labels: [...prevFilter.labels, value.option.label] }))
             }
         }
