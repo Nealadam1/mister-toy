@@ -28,15 +28,16 @@ const authRoutes = require('./api/auth/auth.routes')
 const userRoutes = require('./api/user/user.routes')
 const toyRoutes = require('./api/toy/toy.routes')
 const reviewRoutes = require('./api/review/review.routes')
-// const {setupSocketAPI} = require('./services/socket.service')
+const {setupSocketAPI} = require('./services/socket.service')
 
 
 const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware')
 app.all('*', setupAsyncLocalStorage)
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
+app.use('/api/review', reviewRoutes)
 app.use('/api/toy', toyRoutes)
-// setupSocketAPI(http)
+setupSocketAPI(http)
 
 
 app.get('/**', (req, res) => {

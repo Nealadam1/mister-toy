@@ -1,0 +1,15 @@
+.app-footer {
+    position: fixed;
+    background-color: $clr2;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+  }
+  

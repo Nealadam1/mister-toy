@@ -425,3 +425,293 @@
 15.1.2023, 22:36:08 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
 15.1.2023, 22:36:09 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
 15.1.2023, 22:36:09 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 15:16:02 - INFO - Server is running on port: 3030 
+16.1.2023, 15:16:07 - INFO - Req was made 
+16.1.2023, 15:16:07 - DEBUG - Getting Toys 
+16.1.2023, 15:16:08 - INFO - Req was made 
+16.1.2023, 15:16:08 - DEBUG - Getting Toys 
+16.1.2023, 15:25:26 - INFO - Req was made 
+16.1.2023, 15:25:26 - DEBUG - Getting Toys 
+16.1.2023, 15:25:27 - INFO - Req was made 
+16.1.2023, 15:25:27 - DEBUG - Getting Toys 
+16.1.2023, 15:37:53 - INFO - Req was made 
+16.1.2023, 15:37:53 - DEBUG - Getting Toys 
+16.1.2023, 15:37:54 - INFO - Req was made 
+16.1.2023, 15:37:54 - DEBUG - Getting Toys 
+16.1.2023, 15:38:09 - INFO - Req was made 
+16.1.2023, 15:38:09 - DEBUG - Getting Toys 
+16.1.2023, 15:38:09 - INFO - Req was made 
+16.1.2023, 15:38:09 - DEBUG - Getting Toys 
+16.1.2023, 15:40:16 - INFO - Req was made 
+16.1.2023, 15:40:16 - DEBUG - Getting Toys 
+16.1.2023, 15:40:38 - INFO - Req was made 
+16.1.2023, 15:40:38 - DEBUG - Getting Toys 
+16.1.2023, 15:40:39 - INFO - Req was made 
+16.1.2023, 15:40:39 - DEBUG - Getting Toys 
+16.1.2023, 15:40:52 - INFO - Req was made 
+16.1.2023, 15:40:52 - DEBUG - Getting Toys 
+16.1.2023, 15:40:53 - INFO - Req was made 
+16.1.2023, 15:40:53 - DEBUG - Getting Toys 
+16.1.2023, 15:41:38 - INFO - Req was made 
+16.1.2023, 15:41:38 - DEBUG - Getting Toys 
+16.1.2023, 15:41:39 - INFO - Req was made 
+16.1.2023, 15:41:39 - DEBUG - Getting Toys 
+16.1.2023, 15:41:42 - INFO - Req was made 
+16.1.2023, 15:41:42 - DEBUG - Getting Toys 
+16.1.2023, 16:09:25 - INFO - Req was made 
+16.1.2023, 16:09:25 - DEBUG - Getting Toys 
+16.1.2023, 16:09:37 - INFO - Req was made 
+16.1.2023, 16:09:37 - DEBUG - Getting Toys 
+16.1.2023, 16:09:38 - INFO - Req was made 
+16.1.2023, 16:09:38 - DEBUG - Getting Toys 
+16.1.2023, 16:10:30 - DEBUG - auth.service - login with username: test 
+16.1.2023, 16:10:31 - INFO - User login:  | {"_id":"63c41e705104f98152c2da84","username":"test","fullname":"test","score":0,"isAdmin":true} 
+16.1.2023, 16:10:52 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:10:52 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:10:53 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:10:53 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:11:08 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:11:08 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:11:09 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:11:09 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:11:38 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:11:38 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:11:40 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:11:40 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:11:40 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:11:40 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:11:41 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:11:41 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:11:54 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:11:54 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:11:58 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:11:58 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:12:04 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:12:04 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:12:12 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:12:12 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:12:13 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:12:13 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:12:15 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:12:15 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:12:20 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:12:20 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:12:21 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:12:21 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:13:55 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:13:55 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:14:01 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:14:01 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:14:04 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:14:04 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:14:05 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:14:05 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:14:09 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 16:14:09 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 17:48:11 - INFO - Server is running on port: 3030 
+16.1.2023, 17:49:29 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 17:49:29 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 17:49:31 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 17:49:31 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 17:51:12 - INFO - Server is running on port: 3030 
+16.1.2023, 17:51:20 - INFO - Server is running on port: 3030 
+16.1.2023, 17:51:49 - INFO - Req was made 
+16.1.2023, 17:51:49 - DEBUG - Getting Toys 
+16.1.2023, 17:51:50 - INFO - Req was made 
+16.1.2023, 17:51:50 - DEBUG - Getting Toys 
+16.1.2023, 17:52:15 - INFO - Req was made 
+16.1.2023, 17:52:15 - DEBUG - Getting Toys 
+16.1.2023, 17:52:16 - DEBUG - Getting Toys 
+16.1.2023, 17:52:16 - INFO - Req was made 
+16.1.2023, 17:57:40 - INFO - Req was made 
+16.1.2023, 17:57:40 - DEBUG - Getting Toys 
+16.1.2023, 17:57:41 - INFO - Req was made 
+16.1.2023, 17:57:41 - DEBUG - Getting Toys 
+16.1.2023, 17:58:14 - INFO - Req was made 
+16.1.2023, 17:58:14 - DEBUG - Getting Toys 
+16.1.2023, 17:58:15 - INFO - Req was made 
+16.1.2023, 17:58:15 - DEBUG - Getting Toys 
+16.1.2023, 17:58:21 - DEBUG - auth.service - login with username: test 
+16.1.2023, 17:58:22 - INFO - User login:  | {"_id":"63c41e705104f98152c2da84","username":"test","fullname":"test","score":0,"isAdmin":true} 
+16.1.2023, 18:06:36 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 18:06:36 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 18:06:37 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 18:06:37 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 18:07:11 - INFO - Req was made 
+16.1.2023, 18:07:11 - DEBUG - Getting Toys 
+16.1.2023, 18:07:12 - DEBUG - Getting Toys 
+16.1.2023, 18:07:12 - INFO - Req was made 
+16.1.2023, 18:08:27 - INFO - Server is running on port: 3030 
+16.1.2023, 18:08:42 - INFO - Req was made 
+16.1.2023, 18:08:42 - DEBUG - Getting Toys 
+16.1.2023, 18:08:43 - INFO - Req was made 
+16.1.2023, 18:08:43 - DEBUG - Getting Toys 
+16.1.2023, 18:10:51 - INFO - Req was made 
+16.1.2023, 18:10:51 - DEBUG - Getting Toys 
+16.1.2023, 18:10:52 - INFO - Req was made 
+16.1.2023, 18:10:52 - DEBUG - Getting Toys 
+16.1.2023, 18:11:22 - INFO - Req was made 
+16.1.2023, 18:11:22 - DEBUG - Getting Toys 
+16.1.2023, 18:11:23 - INFO - Req was made 
+16.1.2023, 18:11:23 - DEBUG - Getting Toys 
+16.1.2023, 18:11:45 - INFO - Req was made 
+16.1.2023, 18:11:45 - DEBUG - Getting Toys 
+16.1.2023, 18:11:46 - INFO - Req was made 
+16.1.2023, 18:11:46 - DEBUG - Getting Toys 
+16.1.2023, 18:12:22 - INFO - Req was made 
+16.1.2023, 18:12:22 - DEBUG - Getting Toys 
+16.1.2023, 18:12:22 - INFO - Req was made 
+16.1.2023, 18:12:22 - DEBUG - Getting Toys 
+16.1.2023, 18:13:25 - INFO - Server is running on port: 3030 
+16.1.2023, 18:13:53 - INFO - Server is running on port: 3030 
+16.1.2023, 18:14:03 - INFO - Server is running on port: 3030 
+16.1.2023, 18:16:49 - INFO - Server is running on port: 3030 
+16.1.2023, 18:22:35 - INFO - Server is running on port: 3030 
+16.1.2023, 18:22:40 - INFO - Server is running on port: 3030 
+16.1.2023, 19:19:28 - INFO - Server is running on port: 3030 
+16.1.2023, 19:20:02 - INFO - Server is running on port: 3030 
+16.1.2023, 19:28:14 - INFO - Server is running on port: 3030 
+16.1.2023, 19:28:14 - INFO - New connected socket [id: qztn9ssG4CQN5YgGAAAB] 
+16.1.2023, 19:33:38 - INFO - New connected socket [id: oCwV6rRIZgyI60oaAAAD] 
+16.1.2023, 19:33:41 - DEBUG - Getting Toys 
+16.1.2023, 19:33:41 - INFO - Req was made 
+16.1.2023, 19:33:42 - INFO - Req was made 
+16.1.2023, 19:33:42 - DEBUG - Getting Toys 
+16.1.2023, 19:33:58 - DEBUG - auth.service - login with username: test 
+16.1.2023, 19:33:59 - INFO - User login:  | {"_id":"63c41e705104f98152c2da84","username":"test","fullname":"test","score":0,"isAdmin":true} 
+16.1.2023, 19:34:10 - INFO - New chat msg from socket [id: oCwV6rRIZgyI60oaAAAD], emitting to topic [object Object] 
+16.1.2023, 19:36:12 - INFO - Socket is leaving topic [object Object] [id: oCwV6rRIZgyI60oaAAAD] 
+16.1.2023, 19:36:15 - INFO - New chat msg from socket [id: oCwV6rRIZgyI60oaAAAD], emitting to topic [object Object] 
+16.1.2023, 19:37:09 - INFO - Socket is leaving topic [object Object] [id: oCwV6rRIZgyI60oaAAAD] 
+16.1.2023, 19:37:11 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 19:37:11 - INFO - New connected socket [id: K0aA4DFCXxANz-gPAAAF] 
+16.1.2023, 19:37:12 - INFO - Setting socket.userId = 63c41e705104f98152c2da84 for socket [id: K0aA4DFCXxANz-gPAAAF] 
+16.1.2023, 19:37:14 - INFO - New chat msg from socket [id: K0aA4DFCXxANz-gPAAAF], emitting to topic [object Object] 
+16.1.2023, 19:37:30 - INFO - New connected socket [id: eGWP8YYiBXHOEXZ7AAAH] 
+16.1.2023, 19:37:57 - DEBUG - auth.service - login with username: neal 
+16.1.2023, 19:37:58 - INFO - User login:  | {"_id":"63c41e705104f98152c2da83","username":"neal","fullname":"neal adam1","score":0} 
+16.1.2023, 19:38:06 - INFO - New chat msg from socket [id: eGWP8YYiBXHOEXZ7AAAH], emitting to topic [object Object] 
+16.1.2023, 19:38:20 - INFO - New chat msg from socket [id: K0aA4DFCXxANz-gPAAAF], emitting to topic [object Object] 
+16.1.2023, 20:22:49 - INFO - Socket is leaving topic [object Object] [id: eGWP8YYiBXHOEXZ7AAAH] 
+16.1.2023, 20:22:49 - INFO - Socket is leaving topic [object Object] [id: K0aA4DFCXxANz-gPAAAF] 
+16.1.2023, 20:22:53 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:22:53 - INFO - New connected socket [id: zQyGFYz4CO4A0rUMAAAJ] 
+16.1.2023, 20:22:54 - INFO - Setting socket.userId = 63c41e705104f98152c2da83 for socket [id: zQyGFYz4CO4A0rUMAAAJ] 
+16.1.2023, 20:22:54 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:22:55 - INFO - New connected socket [id: _czLtYWSV3snvYyoAAAL] 
+16.1.2023, 20:22:55 - INFO - Setting socket.userId = 63c41e705104f98152c2da84 for socket [id: _czLtYWSV3snvYyoAAAL] 
+16.1.2023, 20:22:57 - INFO - New chat msg from socket [id: zQyGFYz4CO4A0rUMAAAJ], emitting to topic 63c41dfa5104f98152c216a9 
+16.1.2023, 20:30:22 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:30:22 - INFO - New connected socket [id: sp9aEvaWOmx5htS7AAAN] 
+16.1.2023, 20:30:23 - INFO - Setting socket.userId = 63c41e705104f98152c2da83 for socket [id: sp9aEvaWOmx5htS7AAAN] 
+16.1.2023, 20:33:37 - INFO - New chat msg from socket [id: _czLtYWSV3snvYyoAAAL], emitting to topic 63c41dfa5104f98152c216a9 
+16.1.2023, 20:33:42 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:33:43 - INFO - New connected socket [id: Xwt7ht0Y9WfQcD6LAAAP] 
+16.1.2023, 20:33:43 - INFO - Setting socket.userId = 63c41e705104f98152c2da84 for socket [id: Xwt7ht0Y9WfQcD6LAAAP] 
+16.1.2023, 20:33:47 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:33:48 - INFO - New connected socket [id: 7xtRVgcave7Dhoc6AAAR] 
+16.1.2023, 20:33:48 - INFO - Setting socket.userId = 63c41e705104f98152c2da83 for socket [id: 7xtRVgcave7Dhoc6AAAR] 
+16.1.2023, 20:33:51 - INFO - New chat msg from socket [id: 7xtRVgcave7Dhoc6AAAR], emitting to topic 63c41dfa5104f98152c216a9 
+16.1.2023, 20:33:52 - INFO - New chat msg from socket [id: 7xtRVgcave7Dhoc6AAAR], emitting to topic 63c41dfa5104f98152c216a9 
+16.1.2023, 20:33:54 - INFO - New chat msg from socket [id: Xwt7ht0Y9WfQcD6LAAAP], emitting to topic 63c41dfa5104f98152c216a9 
+16.1.2023, 20:34:04 - INFO - New chat msg from socket [id: 7xtRVgcave7Dhoc6AAAR], emitting to topic 63c41dfa5104f98152c216a9 
+16.1.2023, 20:36:01 - INFO - Server is running on port: 3030 
+16.1.2023, 20:36:02 - INFO - New connected socket [id: NKPdRQ6NDqxbpncVAAAB] 
+16.1.2023, 20:36:02 - INFO - New connected socket [id: X1xtUBiMlvd2fQdHAAAD] 
+16.1.2023, 20:36:03 - INFO - New connected socket [id: b-Vmxlp0Uxv98rpsAAAF] 
+16.1.2023, 20:36:05 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:36:05 - INFO - New connected socket [id: NJEAMIxu3bjtX__6AAAH] 
+16.1.2023, 20:36:06 - INFO - Setting socket.userId = 63c41e705104f98152c2da83 for socket [id: NJEAMIxu3bjtX__6AAAH] 
+16.1.2023, 20:36:08 - INFO - New chat msg from socket [id: NJEAMIxu3bjtX__6AAAH], emitting to topic 63c41dfa5104f98152c216a9 
+16.1.2023, 20:36:10 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:36:10 - INFO - New connected socket [id: sESE8WyBvmFE8qpyAAAJ] 
+16.1.2023, 20:36:10 - INFO - Setting socket.userId = 63c41e705104f98152c2da83 for socket [id: sESE8WyBvmFE8qpyAAAJ] 
+16.1.2023, 20:37:00 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:37:00 - INFO - New connected socket [id: xORa2kUsNSKwAbE9AAAL] 
+16.1.2023, 20:37:00 - INFO - Setting socket.userId = 63c41e705104f98152c2da83 for socket [id: xORa2kUsNSKwAbE9AAAL] 
+16.1.2023, 20:37:13 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:37:15 - INFO - New connected socket [id: UvTVwFcSHgAGi-scAAAN] 
+16.1.2023, 20:37:16 - INFO - Setting socket.userId = 63c41e705104f98152c2da83 for socket [id: UvTVwFcSHgAGi-scAAAN] 
+16.1.2023, 20:37:24 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:37:24 - INFO - New connected socket [id: -XlYbw9HHBpQ824NAAAP] 
+16.1.2023, 20:37:24 - INFO - Req was made (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:37:24 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:37:24 - INFO - Setting socket.userId = 63c41e705104f98152c2da83 for socket [id: -XlYbw9HHBpQ824NAAAP] 
+16.1.2023, 20:37:25 - INFO - Req was made (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:37:25 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:37:49 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:37:49 - INFO - New connected socket [id: r077pR0u5fx8QkobAAAR] 
+16.1.2023, 20:37:49 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:37:49 - INFO - Req was made (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:37:49 - INFO - Setting socket.userId = 63c41e705104f98152c2da83 for socket [id: r077pR0u5fx8QkobAAAR] 
+16.1.2023, 20:37:50 - INFO - Req was made (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:37:50 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:38:12 - INFO - Req was made (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:38:12 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:38:13 - INFO - Req was made (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:38:13 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:38:26 - INFO - New chat msg from socket [id: r077pR0u5fx8QkobAAAR], emitting to topic 63c41dfa5104f98152c216a9 
+16.1.2023, 20:38:33 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:38:34 - INFO - New connected socket [id: 3XIRMz0Z1TtcAHrpAAAT] 
+16.1.2023, 20:38:35 - INFO - Setting socket.userId = 63c41e705104f98152c2da83 for socket [id: 3XIRMz0Z1TtcAHrpAAAT] 
+16.1.2023, 20:38:56 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:38:56 - INFO - New connected socket [id: rxeFPl5EPg5BWaWfAAAV] 
+16.1.2023, 20:38:57 - INFO - Setting socket.userId = 63c41e705104f98152c2da84 for socket [id: rxeFPl5EPg5BWaWfAAAV] 
+16.1.2023, 20:44:09 - INFO - New chat msg from socket [id: 3XIRMz0Z1TtcAHrpAAAT], emitting to topic 63c41dfa5104f98152c216a9 
+16.1.2023, 20:49:39 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:49:39 - INFO - New connected socket [id: p4oH7Eo-8pH-Uj2hAAAX] 
+16.1.2023, 20:49:39 - INFO - Setting socket.userId = 63c41e705104f98152c2da83 for socket [id: p4oH7Eo-8pH-Uj2hAAAX] 
+16.1.2023, 20:49:42 - INFO - New chat msg from socket [id: p4oH7Eo-8pH-Uj2hAAAX], emitting to topic 63c41dfa5104f98152c216a9 
+16.1.2023, 20:49:43 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:49:43 - INFO - New connected socket [id: RgNpohHKN8rELW_VAAAZ] 
+16.1.2023, 20:49:43 - INFO - Setting socket.userId = 63c41e705104f98152c2da83 for socket [id: RgNpohHKN8rELW_VAAAZ] 
+16.1.2023, 20:50:17 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:50:17 - INFO - New connected socket [id: CScALfqend60-q5JAAAb] 
+16.1.2023, 20:50:18 - INFO - Setting socket.userId = 63c41e705104f98152c2da83 for socket [id: CScALfqend60-q5JAAAb] 
+16.1.2023, 20:50:25 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 20:50:25 - INFO - New connected socket [id: Cjo_PaeF45UBoH7jAAAd] 
+16.1.2023, 20:50:26 - INFO - Setting socket.userId = 63c41e705104f98152c2da84 for socket [id: Cjo_PaeF45UBoH7jAAAd] 
+16.1.2023, 20:50:27 - INFO - New chat msg from socket [id: CScALfqend60-q5JAAAb], emitting to topic 63c41dfa5104f98152c216a9 
+16.1.2023, 20:50:34 - INFO - New chat msg from socket [id: Cjo_PaeF45UBoH7jAAAd], emitting to topic 63c41dfa5104f98152c216a9 
+16.1.2023, 20:50:41 - INFO - Req was made (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:50:41 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:50:42 - INFO - Req was made (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:50:42 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:50:49 - INFO - Req was made (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:50:49 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:50:50 - INFO - Req was made (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:50:50 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:50:52 - INFO - Socket is leaving topic 63c41dfa5104f98152c216a9 [id: CScALfqend60-q5JAAAb] 
+16.1.2023, 20:50:55 - INFO - New chat msg from socket [id: CScALfqend60-q5JAAAb], emitting to topic 63c41dfa5104f98152c216a7 
+16.1.2023, 20:51:00 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 20:51:00 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 20:51:01 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 20:51:01 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 20:51:04 - INFO - Socket is leaving topic 63c41dfa5104f98152c216a9 [id: Cjo_PaeF45UBoH7jAAAd] 
+16.1.2023, 20:59:08 - INFO - Req was made (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:59:08 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:59:09 - INFO - Req was made (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:59:09 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:59:19 - WARN - neal adam1attempted to perform admin action (userId: 63c41e705104f98152c2da83)
+16.1.2023, 20:59:42 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 20:59:42 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 20:59:43 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 20:59:43 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 20:59:44 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 20:59:44 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 20:59:46 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 20:59:46 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 20:59:54 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 20:59:54 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 20:59:54 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da84)
+16.1.2023, 20:59:54 - INFO - Req was made (userId: 63c41e705104f98152c2da84)
+16.1.2023, 21:00:23 - INFO - Socket is leaving topic 63c41dfa5104f98152c216a7 [id: Cjo_PaeF45UBoH7jAAAd] 
+16.1.2023, 21:00:25 - INFO - New chat msg from socket [id: Cjo_PaeF45UBoH7jAAAd], emitting to topic 63c59ea937f1b7bd82f16e18 
+16.1.2023, 21:00:29 - INFO - Req was made (userId: 63c41e705104f98152c2da83)
+16.1.2023, 21:00:29 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da83)
+16.1.2023, 21:00:30 - INFO - Req was made (userId: 63c41e705104f98152c2da83)
+16.1.2023, 21:00:30 - DEBUG - Getting Toys (userId: 63c41e705104f98152c2da83)
+16.1.2023, 21:00:37 - INFO - Socket is leaving topic 63c41dfa5104f98152c216a7 [id: CScALfqend60-q5JAAAb] 
+16.1.2023, 21:00:46 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:00:46 - INFO - Socket disconnected [id: undefined] 
+16.1.2023, 21:00:47 - INFO - Socket disconnected [id: undefined] 

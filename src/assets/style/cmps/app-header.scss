@@ -9,12 +9,15 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-family: 'Edu VIC WA NT Beginner', cursive;
   left: 0;
-
+  height: 60px;
 }
 
 .app-header nav {
   display: flex;
+  flex-grow: 1;
   align-items: center;
+  justify-content: flex-start;
+  
 }
 
 .app-header nav a {
@@ -41,4 +44,28 @@
 
 .app-header nav a:hover {
   color: #f0f0f0;
+}
+
+.user-info{
+  margin-left: auto;
+  
+ 
+  p{
+    display: inline;
+  }
+  
+  button{
+    
+    color:white;
+    font-family: 'Edu VIC WA NT Beginner';
+  }
+
+  form{
+    display: inline;
+    color:white;
+  }
+
+  input{
+    color: white;
+  }
 }

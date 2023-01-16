@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
+import { ChatApp } from "../cmps/chat-app";
 import { showErrorMsg } from "../services/event-bus.service";
 import { toyService } from "../services/toy.service";
 import { utilService } from "../services/util.service";
@@ -12,7 +13,7 @@ export function ToyDetails() {
 
     useEffect(() => {
         loadToy()
-    }, [toyId])
+    }, [])
 
     function loadToy() {
         toyService.getById(toyId)
@@ -24,6 +25,16 @@ export function ToyDetails() {
             })
     }
 
+    async function onAddToyMsg(msg){
+        try {
+            const savedMsg = await toyService.addToyMsg(toyId, msg)
+            setToy((prevToy)=> ({...prevToy, msgs: [...prevToy.msgs, savedMsg]}))
+        } catch (error) {
+            console.log('err'.err)
+            showErrorMsg('cannot save msg')
+        }
+    }
+
     if (!toy) return <div>Loading...</div>
     return <section className='toy-details'>
         <h1>{toy.name}</h1>
@@ -31,6 +42,8 @@ export function ToyDetails() {
         <p>Added at:{utilService.getLocalDate(toy.createdAt)}</p>
         <p>labels: {toy.labels.join(' ,')}</p>
         <p>Stock: {toy.inStock? 'Available':'Out of stock'}</p>
+
+        <ChatApp toy={toy} onAddToyMsg={onAddToyMsg}/>
 
         <Link to={'/toy'}>Back</Link>
 

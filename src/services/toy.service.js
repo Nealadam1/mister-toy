@@ -19,7 +19,8 @@ export const toyService = {
     getDefaultFilter,
     getDefaultSort,
     getLabelList,
-    countLabelsMap
+    countLabelsMap,
+    addToyMsg,
 }
 
 function query(filterBy = getDefaultFilter(), sortby = getDefaultSort()) {
@@ -49,7 +50,8 @@ function getEmptyToy() {
         name: '',
         price: '',
         labels: [],
-        inStock: true
+        inStock: true,
+        msgs:[]
     }
 }
 
@@ -63,6 +65,17 @@ function getDefaultSort() {
 function getLabelList() {
     return labels
 }
+
+async function addToyMsg(toyId, msg) {
+	try {
+		console.log('msg:', msg)
+		const savedMsg = await httpService.post(`toy/${toyId}/msg`,  msg )
+		return savedMsg
+	} catch (err) {
+		console.log('Cannot add msg to toy:', err)
+	}
+}
+
 
 function _createDemoData() {
     let demoData = utilService.loadFromStorage(TOY_KEY)

@@ -1,11 +1,15 @@
+main{
+    padding-top: 60px;
+}
+
 .toy-index{
     padding-top: 80px;
 
 }
 
 .toy-index a.add-btn{
-    position: absolute;
-    top: 80px;
+    position: fixed;
+    top: 60px;
     padding: 10px;
     background-color: rgb(46, 168, 46);
     border-bottom-left-radius: 10px;
